@@ -23,6 +23,11 @@ class CustomDrawer extends StatelessWidget {
               ),
             ),
           ),
+          ListTile(
+            title: const Text('Administrar productos y usuarios'),
+            leading: const Icon(Icons.shopping_cart),
+            onTap: () => Navigator.pushNamed(context, '/menu'),
+          ),
           const Spacer(),
           ListTile(
             title: const Text('Cerrar sesión'),
